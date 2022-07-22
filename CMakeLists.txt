@@ -9,6 +9,7 @@ include(./compat.cmake)
 c4_project(VERSION 0.4.1 STANDALONE
     AUTHOR "Joao Paulo Magalhaes <dev@jpmag.me>")
 
+set(CMAKE_INSTALL_PREFIX "")
 
 #-------------------------------------------------------
 
